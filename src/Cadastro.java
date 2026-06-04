@@ -73,7 +73,8 @@ public class Cadastro extends JDialog {
                     //============================================================================================
                     //=======================MUDA PARA O LOCALHOST CERTO COM O NOME DA AÇÃO=======================
                     //============================================================================================
-                    .uri(URI.create("http://localhost:0000/CadastrarProduto"))
+                    //============================================================================================
+                    .uri(URI.create("COLA AQUI A URL DO LOCALHOST COM O METÓDO"))
                     .header("Content-Type", "application/json")
                     .POST(HttpRequest.BodyPublishers.ofString(json))
                     .build();
