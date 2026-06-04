@@ -219,7 +219,12 @@ public class Cadastro extends JDialog {
                     // Converte a string de texto com a URL fornecida em um objeto URI válido e anexa à requisição.
                     .uri(URI.create("COLA AQUI A URL DO LOCALHOST COM O METÓDO"))
 
-                    // Insere uma propriedade no cabeçalho HTTP avisando o servidor que o corpo da mensagem é um JSON.
+                    //============================================================================================
+                    //============================================================================================
+                    //=======================MUDA PARA O LOCALHOST CERTO COM O NOME DA AÇÃO=======================
+                    //============================================================================================
+                    //============================================================================================
+                    .uri(URI.create("COLA AQUI A URL DO LOCALHOST COM O METÓDO"))
                     .header("Content-Type", "application/json")
 
                     // Configura o método como POST (criação de dados) e anexa a String JSON convertida em um fluxo de dados.
